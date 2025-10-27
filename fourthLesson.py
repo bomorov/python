@@ -101,6 +101,6 @@ print(student_names)
 student_names.remove("Sam")
 print(student_names)
 
-sam_index = student_names.index("Sam")
-student_names[sam_index] = "Samuel"
+sam_index = student_names.index("Leo")
+student_names[sam_index] = "Leonardo"
 print(student_names)
