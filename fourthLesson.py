@@ -104,3 +104,6 @@ print(student_names)
 sam_index = student_names.index("Leo")
 student_names[sam_index] = "Leonardo"
 print(student_names)
+
+student_names_3 = student_names.copy()
+print(student_names_3)
